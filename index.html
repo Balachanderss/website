@@ -75,7 +75,7 @@
 												</div>
 											</div>
 											<ul class="actions">
-												<li><input type="submit" value="Send Message" class="button primary" /></li>
+												<li><input type="submit" value="Send Message" onchange="submit()" class="button primary" /></li>
 											</ul>
 										</form>
 										<h2 class="major">Contact</h2>
@@ -93,4 +93,28 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
 	</body>
+	<script>
+<!-- 	function submit()
+	<!-- { -->
+		<!-- var name=document.getElementById('name').value;alert(name); -->
+		<!-- var email=document.getElementById('email').value; -->
+		<!-- var message=document.getElementById('message').value; -->
+	<!-- $.ajax({ -->
+	<!-- type:'post', -->
+	<!-- url:'submit.php', -->
+	<!-- data:'name='+name+'&email='+email+'&message='+message, -->
+		<!-- success:function(data) -->
+			<!-- { -->
+				<!-- if(data=1) -->
+				<!-- { -->
+					<!-- alert("Early Contact You"); -->
+				<!-- } -->
+				<!-- else -->
+				<!-- { -->
+					<!-- alert("Not Submitted"); -->
+				<!-- } -->
+			<!-- } -->
+		<!-- }); -->
+	<!-- } --> -->
+	</script>
 </html>
